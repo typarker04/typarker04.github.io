@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
 <style>
   :root{
     --sky-top:#0b1d3a;
@@ -340,11 +342,20 @@
   .strava-body p{margin:0;font-size:0.88rem;color:#6b6355;}
   .strava-map-wrap{
     flex-shrink:0;
-    width:150px;
-    height:96px;
+    width:240px;
+    height:150px;
     border-radius:10px;
     overflow:hidden;
     background:var(--paper-dim);
+    border:1px solid var(--border);
+  }
+  .strava-map-wrap .leaflet-container{
+    width:100%;height:100%;
+    font-family:'Inter',sans-serif;
+  }
+  .strava-map-wrap .leaflet-control-attribution{
+    font-size:8px;
+    background:rgba(255,255,255,0.7);
   }
   .strava-map-wrap:empty{display:none;}
   .strava-map{width:100%;height:100%;display:block;}
@@ -361,7 +372,7 @@
   .strava-view:hover{text-decoration:underline;}
   @media (max-width:520px){
     .strava-card{flex-direction:column;align-items:flex-start;gap:10px;}
-    .strava-map-wrap{width:100%;height:140px;}
+    .strava-map-wrap{width:100%;height:180px;}
   }
 
   /* ---------- Contact / Footer ---------- */
@@ -696,7 +707,7 @@
     const points = decodePolyline(polyline);
     if (points.length < 2) return '';
 
-    const w = 150, h = 96, pad = 10;
+    const w = 240, h = 150, pad = 12;
     const lats = points.map(p => p[0]);
     const lngs = points.map(p => p[1]);
     const avgLat = lats.reduce((a, b) => a + b, 0) / lats.length;
@@ -729,6 +740,53 @@
     </svg>`;
   }
 
+  function renderRouteMap(polyline, container) {
+    const points = decodePolyline(polyline);
+    if (points.length < 2) return;
+
+    const draw = () => {
+      if (!window.L) {
+        container.innerHTML = buildRouteSvg(polyline);
+        return;
+      }
+      // Paste your Mapbox public token (pk.*) here — free at account.mapbox.com.
+      // Leave empty to use OpenTopoMap instead.
+      const MAPBOX_TOKEN = 'pk.eyJ1IjoidHJwYXJrZXIwNCIsImEiOiJjbXJsbDNpZ2QyeWY5MnpvYXp5eWFybjZyIn0.rbvcggKBW10-E9e8MCg1Jw';
+
+      const map = L.map(container, {
+        zoomControl: false,
+        dragging: false,
+        scrollWheelZoom: false,
+        doubleClickZoom: false,
+        boxZoom: false,
+        keyboard: false,
+        touchZoom: false,
+      });
+      if (MAPBOX_TOKEN) {
+        L.tileLayer(`https://api.mapbox.com/styles/v1/mapbox/outdoors-v12/tiles/256/{z}/{x}/{y}@2x?access_token=${MAPBOX_TOKEN}`, {
+          maxZoom: 18,
+          attribution: '&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
+        }).addTo(map);
+      } else {
+        L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+          maxZoom: 17,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> | <a href="https://opentopomap.org">OpenTopoMap</a>',
+        }).addTo(map);
+      }
+      const route = L.polyline(points, { color: '#c86b3c', weight: 3.5, opacity: 0.9 }).addTo(map);
+      L.circleMarker(points[0], { radius: 4, color: '#2f6b4f', fillColor: '#2f6b4f', fillOpacity: 1 }).addTo(map);
+      L.circleMarker(points[points.length - 1], { radius: 4, color: '#a4552d', fillColor: '#a4552d', fillOpacity: 1 }).addTo(map);
+      map.fitBounds(route.getBounds(), { padding: [14, 14] });
+      requestAnimationFrame(() => {
+        map.invalidateSize();
+        map.fitBounds(route.getBounds(), { padding: [14, 14] });
+      });
+    };
+
+    if (window.L || document.readyState === 'complete') draw();
+    else window.addEventListener('load', draw);
+  }
+
   fetch('strava-latest.json', { cache: 'no-store' })
     .then(res => res.json())
     .then(activity => {
@@ -756,7 +814,7 @@
       statsEl.textContent = parts.join(' · ');
 
       if (activity.map_polyline) {
-        mapEl.innerHTML = buildRouteSvg(activity.map_polyline);
+        renderRouteMap(activity.map_polyline, mapEl);
       }
 
       if (activity.id) {
