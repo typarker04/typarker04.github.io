@@ -1,10 +1,10 @@
 {
-  "name": null,
-  "type": null,
-  "distance_m": null,
-  "moving_time_s": null,
-  "total_elevation_gain_m": null,
-  "start_date": null,
-  "id": null,
-  "map_polyline": null
+  "name": "Afternoon Run",
+  "type": "Run",
+  "distance_m": 6567.2,
+  "moving_time_s": 2198,
+  "total_elevation_gain_m": 126.0,
+  "start_date": "2026-07-14T17:44:30Z",
+  "id": 19316274231,
+  "map_polyline": "_ahcGvubqL?FWr@?`AEVWf@_@`Aa@j@O\\a@r@Ox@o@tBa@|@Ul@Wh@]bAKf@K~@GBGJ@Z?LCFGBQ?e@Im@EUBUHYNUh@OL{@d@eAp@QRs@b@[Xk@VM@EAKOs@cC[[WMKQc@eAKOQEu@`@m@BeAX]DYAMIOQGQC_@Fo@RkAXeAFq@@k@KcAFaAF[Ac@EMKY[a@_B}Am@}@IYBqAGSSMu@?mAQe@MWWMYQ}@Ae@Eu@Uk@e@o@o@g@cB{BSa@QMmAY_@Gg@SKKEOO_AGQGKUOm@Ie@HOHGPQbAIHKDI?UIO?KDg@ZUf@CNBVP^v@p@fAx@P@J?BId@@TCt@Hd@Pf@`@ZRp@PTBp@Tr@h@NVHVDT?ZENQLWD[@SBy@FmAMe@?[JOREX?TJPr@ZJFJPFV@VCf@B`@NZTNt@Fx@ZTNV^JV@LIfABjADJLPNJF@d@?\\JPNHT@TAPYdA@RHNLFdACZLh@`@d@VPDhAJTDH?nBg@N{@ZuAFi@?OE_AAo@Bm@Hk@AWGQa@u@_BwAY_@Q[MYCK@wAKQQMgA?_AMWG_@[O]MmA@SGa@Ke@KWs@}@w@i@Ua@_@][u@S[EEc@Mo@Kg@QK?mCcDGAUBKDQRGLI|@GHIDk@GQD]XY\\KV@XJV|@~@`Ap@TFnAGn@@f@HRN^\\TLx@VXDd@Rl@h@NXFNUzAc@DK?gAFi@C[Go@AWFMJKNCZFTJLj@RVVHZ?|AHRJNLJn@FjAb@X^V^DTIfA?NDv@DPFJLHLB^?TDTRLXBVCTQf@ETDVNNPB^ERBhCdAVBp@Nl@?\\EZ?HCL\\H^HR`@TpCg@NAb@[HCNBRTL^\\p@VHPNHLNd@Rb@XnAH?LC^SLCX_@XWbAm@l@URSl@a@Ra@dAk@j@@XF`@FHCDKEg@?o@Hq@Tm@l@mBf@yAhAqCTs@Ti@Ro@z@kB"
 }
