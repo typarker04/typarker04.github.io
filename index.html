@@ -308,6 +308,62 @@
   .interest h4{margin:0 0 4px;font-size:0.98rem;font-family:'Inter',sans-serif;font-weight:600;}
   .interest p{margin:0;font-size:0.85rem;color:#6b6355;}
 
+  /* ---------- Strava card ---------- */
+  .strava-card{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-top:26px;
+    padding:22px 26px;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-left:4px solid var(--accent);
+    border-radius:var(--radius);
+  }
+  .strava-icon{font-size:1.9rem;flex-shrink:0;}
+  .strava-body{flex:1;min-width:0;}
+  .strava-label{
+    display:block;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    font-size:0.7rem;
+    font-weight:700;
+    color:var(--accent-dark);
+    margin-bottom:4px;
+  }
+  .strava-body h4{
+    margin:0 0 4px;
+    font-family:'Fraunces',serif;
+    font-size:1.05rem;
+    font-weight:600;
+  }
+  .strava-body p{margin:0;font-size:0.88rem;color:#6b6355;}
+  .strava-map-wrap{
+    flex-shrink:0;
+    width:150px;
+    height:96px;
+    border-radius:10px;
+    overflow:hidden;
+    background:var(--paper-dim);
+  }
+  .strava-map-wrap:empty{display:none;}
+  .strava-map{width:100%;height:100%;display:block;}
+  .route-line{fill:none;stroke:var(--accent);stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+  .route-start{fill:var(--pine);}
+  .route-end{fill:var(--accent-dark);}
+  .strava-view{
+    flex-shrink:0;
+    text-decoration:none;
+    font-weight:600;
+    font-size:0.9rem;
+    color:var(--accent-dark);
+  }
+  .strava-view:hover{text-decoration:underline;}
+  @media (max-width:520px){
+    .strava-card{flex-direction:column;align-items:flex-start;gap:10px;}
+    .strava-map-wrap{width:100%;height:140px;}
+  }
+
   /* ---------- Contact / Footer ---------- */
   .contact{
     text-align:center;
@@ -562,6 +618,17 @@
           <p>[Instrument or genre]</p>
         </div>
       </div>
+
+      <div class="strava-card" id="stravaCard">
+        <div class="strava-icon">&#9968;</div>
+        <div class="strava-body">
+          <span class="strava-label">Latest Activity</span>
+          <h4 id="stravaName">Loading latest activity&hellip;</h4>
+          <p id="stravaStats"></p>
+        </div>
+        <div class="strava-map-wrap" id="stravaMapWrap"></div>
+        <a id="stravaLink" class="strava-view" href="https://www.strava.com" target="_blank" rel="noopener">View &rarr;</a>
+      </div>
     </div>
   </section>
 
@@ -598,6 +665,109 @@
   navLinks.querySelectorAll('a').forEach(a =>
     a.addEventListener('click', () => navLinks.classList.remove('open'))
   );
+
+  function decodePolyline(str) {
+    let index = 0, lat = 0, lng = 0;
+    const coordinates = [];
+    while (index < str.length) {
+      let shift = 0, result = 0, b;
+      do {
+        b = str.charCodeAt(index++) - 63;
+        result |= (b & 0x1f) << shift;
+        shift += 5;
+      } while (b >= 0x20);
+      lat += (result & 1) ? ~(result >> 1) : (result >> 1);
+
+      shift = 0;
+      result = 0;
+      do {
+        b = str.charCodeAt(index++) - 63;
+        result |= (b & 0x1f) << shift;
+        shift += 5;
+      } while (b >= 0x20);
+      lng += (result & 1) ? ~(result >> 1) : (result >> 1);
+
+      coordinates.push([lat / 1e5, lng / 1e5]);
+    }
+    return coordinates;
+  }
+
+  function buildRouteSvg(polyline) {
+    const points = decodePolyline(polyline);
+    if (points.length < 2) return '';
+
+    const w = 150, h = 96, pad = 10;
+    const lats = points.map(p => p[0]);
+    const lngs = points.map(p => p[1]);
+    const avgLat = lats.reduce((a, b) => a + b, 0) / lats.length;
+    const lngScale = Math.cos(avgLat * Math.PI / 180) || 1;
+
+    const minLat = Math.min(...lats), maxLat = Math.max(...lats);
+    const minLng = Math.min(...lngs), maxLng = Math.max(...lngs);
+    const spanX = Math.max((maxLng - minLng) * lngScale, 1e-6);
+    const spanY = Math.max(maxLat - minLat, 1e-6);
+    const scale = Math.min((w - pad * 2) / spanX, (h - pad * 2) / spanY);
+
+    let coords = points.map(([lat, lng]) => [
+      pad + (lng - minLng) * lngScale * scale,
+      h - pad - (lat - minLat) * scale,
+    ]);
+
+    const xs = coords.map(c => c[0]), ys = coords.map(c => c[1]);
+    const offsetX = (w - (Math.max(...xs) - Math.min(...xs))) / 2 - Math.min(...xs);
+    const offsetY = (h - (Math.max(...ys) - Math.min(...ys))) / 2 - Math.min(...ys);
+    coords = coords.map(([x, y]) => [x + offsetX, y + offsetY]);
+
+    const d = coords.map((p, i) => (i === 0 ? 'M' : 'L') + p[0].toFixed(1) + ',' + p[1].toFixed(1)).join(' ');
+    const [sx, sy] = coords[0];
+    const [ex, ey] = coords[coords.length - 1];
+
+    return `<svg viewBox="0 0 ${w} ${h}" class="strava-map" preserveAspectRatio="xMidYMid meet">
+      <path class="route-line" d="${d}"/>
+      <circle class="route-start" cx="${sx}" cy="${sy}" r="3.5"/>
+      <circle class="route-end" cx="${ex}" cy="${ey}" r="3.5"/>
+    </svg>`;
+  }
+
+  fetch('strava-latest.json', { cache: 'no-store' })
+    .then(res => res.json())
+    .then(activity => {
+      const nameEl = document.getElementById('stravaName');
+      const statsEl = document.getElementById('stravaStats');
+      const linkEl = document.getElementById('stravaLink');
+      const mapEl = document.getElementById('stravaMapWrap');
+
+      if (!activity || !activity.name) {
+        nameEl.textContent = 'No recent activity yet';
+        linkEl.style.display = 'none';
+        return;
+      }
+
+      const miles = activity.distance_m ? (activity.distance_m / 1609.34).toFixed(1) : null;
+      const feet = activity.total_elevation_gain_m ? Math.round(activity.total_elevation_gain_m * 3.28084) : null;
+      const date = activity.start_date
+        ? new Date(activity.start_date).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })
+        : null;
+
+      const parts = [activity.type, miles ? `${miles} mi` : null, feet ? `${feet} ft gain` : null, date]
+        .filter(Boolean);
+
+      nameEl.textContent = activity.name;
+      statsEl.textContent = parts.join(' · ');
+
+      if (activity.map_polyline) {
+        mapEl.innerHTML = buildRouteSvg(activity.map_polyline);
+      }
+
+      if (activity.id) {
+        linkEl.href = `https://www.strava.com/activities/${activity.id}`;
+      } else {
+        linkEl.style.display = 'none';
+      }
+    })
+    .catch(() => {
+      document.getElementById('stravaName').textContent = 'Latest activity unavailable';
+    });
 </script>
 
 </body>
