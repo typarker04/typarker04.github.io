@@ -1,10 +1,10 @@
 {
-  "name": "Morning Run",
+  "name": "Afternoon Run",
   "type": "Run",
-  "distance_m": 8762.5,
-  "moving_time_s": 2982,
-  "total_elevation_gain_m": 97.0,
-  "start_date": "2026-07-28T06:50:50Z",
-  "id": 19498776165,
-  "map_polyline": "c_hcGbtbqLB?f@cAHGHMVo@f@{@DCXCL?VDjAf@t@L^Pp@Lt@n@t@^d@J`@An@MLEXQpAyAfAsAp@m@d@[r@o@t@i@t@[^Kf@MdAONId@IbA[d@U~Am@`@g@r@QbAIf@IzDc@P?^Dx@NPCj@A~@Wb@Sl@Q~By@d@KXKl@IhA[l@Kn@Qt@Mh@O\\C`@MH?NFdBpARF`At@RJ`@b@NFt@Pb@Bz@LLAHCp@C^Gn@Ed@BZALJJNXv@BRAVUfAGl@Sz@GdAc@~CCz@G^IlBAh@FhA@hAJXn@r@LHb@nADfCFx@AdAJ~CC^@l@~@dFZbCNr@PzAb@pCJbATfAJx@JbADjBIhFSdBs@jBGbA?bBHdAx@tET~@VbBR|@PzAL`CAp@C`@A\\KnBIj@GxCe@fIK`DY|EMfDK^OlAKLm@Pg@CI?mBU_AOGEg@@s@_@sAa@oBy@sAs@w@[i@YcBw@_@Ws@]YUc@WyAkAMM_@{@Wu@S_@_@_@o@W_@Ba@V[`@w@r@aAx@a@V{Ab@cANk@Pe@RKJMTMHWJa@V{An@g@Js@Dc@H}ANa@JoANaBAa@E[AOCo@Q{@c@q@i@i@q@Qe@_@yAy@wBo@qASYMISGaAIYGsBIWEc@AsBUYGyBSYEaA[QKYIYOWAu@Oa@A}ASa@Co@KYCe@Ko@GaAOg@Ay@K]KU?cCUGEc@c@_By@_C_BkC_Cm@s@yBeD_A}AqA_BEKAUpB}CXi@NMBO\\a@LYtAuBj@aAzB}ClAuBf@u@`@]rAw@^YjAo@b@[`AyILm@Vc@JuAD[@c@NWTSLQA_@Mu@Ce@Kk@Ec@IwA?Sb@o@b@wA|B}FNc@Ds@DU`AoCVk@To@rAiC"
+  "distance_m": 8856.1,
+  "moving_time_s": 2985,
+  "total_elevation_gain_m": 108.0,
+  "start_date": "2026-07-29T17:38:43Z",
+  "id": 19521441674,
+  "map_polyline": "{~gcGbtbqLJUDABEL[NO`AuBJKNCJAj@Hp@ZxA^HDXDn@`@n@j@l@XJBh@BXAf@OZSv@u@tAeBLIDI|@{@`@Wr@q@x@k@\\MnA]h@Ir@[XCnA[b@Sz@Wl@[N_@LIl@Kv@Gn@OhAEl@K^AXIh@Dz@PL?bAKp@Oh@Wj@Ql@W|Ae@`BY`@Qz@MvEiAXCVDv@j@j@j@hBfAn@l@|@Hh@Pl@HpAMREZCZG^?P@LF`@`@Rx@?d@GRKX_@zBMzAOx@MnAEd@Az@Iz@Cf@?vCHp@r@~@RR`@tAVjI?rCBXb@|BVhBNv@TjBd@hCP|A\\xBNp@LrAFdCIrEGfAIh@Of@Yl@Oj@CjA?hAFp@f@hD`@nBXfBNr@TxAPjDMhEItAEZW`GKfAErAa@hJCZOZCRUbE?d@CD]DOA[P_@@eBUs@O_AI{Ao@]IWMaA[c@Si@[w@]]KyA{@uAo@QOw@a@y@g@kA_A]a@Wg@[_AU_@QWMKi@Uc@BQJaBhB{@p@_@T]LsBh@IDO@OHc@J_@RY^QLsB~@y@PIAcBPoCh@s@BqA?WA{@Ko@Ui@Um@e@QIOS_@m@IYYs@CSCc@Oc@uAuCIKMKu@Ue@C[GC@k@IgACc@GM@e@Ik@AYGYCCCg@Ei@I[CO?_@Eq@Qu@[o@SqDk@a@A{@MQ?gDg@}BUG@}BYg@A[Ea@MIUKMYMGGO_@KKeAm@{@u@yAiAqA}AUa@_@a@yAuBMWaAwAe@{@dCuGDU~A_C\\m@JYjA_BjA_D?c@F[z@k@j@YDIBYJUDYAKUwADQVe@h@{ARSLCZObAi@h@U`AY^QN]Xc@Fm@FsAAo@@EVE^MDG?OQw@[_DCiAHu@ZcAj@yADEBMf@uAd@wADItAsDBONWb@iAFGZ{@RYj@qAf@s@BE?EO`@GB"
 }
