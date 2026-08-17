@@ -1,10 +1,10 @@
 {
   "name": "Morning Run",
   "type": "Run",
-  "distance_m": 10146.6,
-  "moving_time_s": 3186,
-  "total_elevation_gain_m": 110.6,
-  "start_date": "2026-08-15T09:37:44Z",
-  "id": 19753779770,
-  "map_polyline": "c~gcGdsbqLJId@eAF]VQBSTSVCj@H|@VRTZRDI`AXf@RxA`Af@Ll@GlBm@Tg@d@i@BQLCVk@b@UVa@ZKt@u@RAf@q@pAWVQRDTQp@AFQ^QnBWL_@|@c@t@UP_@j@_@f@HXS`AEDIpAEbDPx@Wz@N^QPYLHTYLFPCn@a@BK`@@VU|@Wh@?`Ac@r@E`@Sd@O\\@f@Gr@a@j@Ax@x@VDn@n@XFjBtAzALhA\\xAOPJd@?VMT@d@TDKZj@Hr@Qp@@NWZ@Pe@`C@h@KZ[tBDl@Gd@BTK`@E`@@`@I\\Ff@IjATp@v@p@FXPD?SL^F^@l@Ip@RvDCl@R`@G|AH^@r@x@bE`AtHTv@Fz@JTd@lDAj@HTLhBIlB@vAM|ASnAi@fAE^DDG^ChBBh@`B|IVxBLTFj@CPHx@EPJd@FjAAj@Q|ADTIt@ELBdAOlACb@DJQ`BCpBUrCSrD?lAM`ACvA]`BEhAg@HWKsDUk@O{@?aAa@q@KW[m@KqAk@KUyAg@uAy@Q?m@g@YEu@k@O?_Am@uA_BUy@cAwAcAe@e@HIRmAdAYd@IAuAfAg@Dc@VsBf@{FtCo@Cq@@aAp@m@Bg@VKG]FCIc@NwA?UQ]EU@a@[GLSIoA_Ak@s@a@cAmB{Fe@m@]Qs@OuEQgB]_BEqDgAqCo@k@?cBa@SDg@SeBQs@SsBUg@@GIUCs@Fk@QwACCWWe@UA{@i@a@e@a@Ma@i@M@kAcAEOSGWe@a@[E_@_@QG[WMBK_@UEMCB{CgGFQXQAI`AoA`@_A`A_AN_@j@_Ap@u@j@mATOF]bBiCb@[|@gBj@]@IzLkHt@i@BMVEFOPCpAaAVEv@o@zA}@xAu@lEuA~@Rd@Cf@Vj@j@Pd@h@V@NV`@t@h@dDb@tAOz@BTQb@D`@YT[`@[VAVQ\\q@EuAGK?]GEg@oJ?qBM[Ae@SaADSUsBB]Qq@@]_@uCU]WMIYq@_@Wa@@_@?s@VsCCKPwABeAI[K?g@b@GZs@XUZKAg@~@G?[n@g@Xq@Ta@BQIGLm@@MEM[KBQQWW?Ou@EAI]WwA@m@u@y@G_AXoAlC[ZBR"
+  "distance_m": 6737.5,
+  "moving_time_s": 2262,
+  "total_elevation_gain_m": 70.0,
+  "start_date": "2026-08-16T10:25:03Z",
+  "id": 19769282968,
+  "map_polyline": "{ugcGfobqLD??HNA`@TNDPH\\V\\Nt@p@Cl@WbAARBHh@JX?DAFF\\v@Rx@Bb@HNTH~@MH@ZCfABx@OXCb@KR?TENBJLHd@VxBHvAC\\GHy@\\UBg@Ru@Lg@Le@BGAc@F[JeARWRMBW@w@NWBKEEKKk@Gm@EkACSGKWE_@@]HI?ECESBo@L}@\\cAF_@d@cBF[JOLEpA@LDHPNj@PjALTJFL?`@IX?d@Ih@@^AnC[TCHBVd@HXBd@Jz@@r@Hj@G^CDUNWDc@T[JU@IFW@m@LU@IBo@H{@Re@DMDMJYH_D^m@DkALU?IBUBYN{@PWJa@HK@IAKOCOGmBUyC?UDKHG\\?n@HT@XHN@bADRCLMhDyGFCP@ZLf@ZZ\\@DXHNBVGfAEp@If@?d@Ir@Cb@IV?HDNTTjATpCERU^c@PGFgAd@eATsAHi@PeAJOBYPmAROBKGKUMmA]oH@s@XwCAe@@Q\\cB?KaAw@o@_@u@Ma@Qo@Q_@S[Ik@Ci@HIDo@vAg@x@IVo@]HFNZBLADm@jAAFAd@ERyClH@NBBx@f@r@l@NDJ?xASd@CHGBKNIr@BZCj@Qd@MLKTc@bAkCBW?WMi@[c@IG_@MSAOBMJKPWr@s@dBGTAT@XPf@LNJLNH^JPANGLOHQlAkDBWE]M]]_@OI]GWBMJKPq@bBa@lA?\\Hd@HRLLPPZLP?TELMJQfAsCFS@Q?_@GSIS[_@a@OQCOBSP[p@w@rBGRCV@VHZNVTV^NN@NCPMR_@bAiCH[@UAUI[W[]UQGSAQDQPGLcAjCMd@@f@Nb@JPXTd@LTEJELQHQj@wAZ_ADYoByBEAS{@FaAJY\\yBGk@OCUIC?SGWAQ@MDe@p@_@x@g@v@QR"
 }
