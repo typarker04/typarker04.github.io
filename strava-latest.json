@@ -1,10 +1,10 @@
 {
   "name": "Lunch Run",
   "type": "Run",
-  "distance_m": 8858.0,
-  "moving_time_s": 2833,
-  "total_elevation_gain_m": 33.0,
-  "start_date": "2026-08-29T12:24:13Z",
-  "id": 19954047705,
-  "map_polyline": "q{{eGdyr`PNDGD]L_@?OM]m@OQ[m@EAEBCb@EdC@fACnB?bCG|@Bf@CtAAR@JOt@EbAIf@Dh@Av@CLIFSAc@@EAo@AO@EF?~@Ab@CDG@oA_@KAI?EBY?UBa@CO?GBADMfCOfAGhAWrBGdAI`CAd@FXGpB@LJZ?Lc@bDSrBAf@Bz@?~BQbCGpBKp@Cl@WfCWzAWzBUx@aAzBY|@CNPbC?zABf@?bAD`BCdCVtBAtBBTRp@BXE|@@dBI|@e@nCYhA[v@w@hCG^Af@D^NVx@n@l@l@~@nAP^Ld@XbD@hACf@StAMxA[~@KPcB`CeBfB_BjBYR]\\GJE`@GTO^IHg@@OH{AlBMXSXWp@k@nBuAtCg@t@WROHu@RgBP_AR[@eAL_@TQ@o@VWDUHQTSl@C^?f@ZfEh@pDHz@`@~CHdA`@lDRp@tBnGn@|An@tB^j@b@XHRHZJNl@DVAdBFp@An@B|ACT@j@CVCjA[rAg@^Gn@U?SSgAEyAB_BBiFAaDBu@C]@}CGaC@}@FmABsA?mCAWBaCAoAF]DuABeFAyG?ORiAB}BCu@?m@HQ`@[l@s@h@{@Xk@FSJ}@N{B@kBYaDUgAQc@u@eAe@g@e@_@SMOQGIGWAu@Hi@rAoEj@{BLu@Hm@BuA?uBEc@Oc@CW@uBQwAAWC}@Bg@AcAGmAAaB@_BOqBBUNg@t@kBXk@Je@Hi@D{@Hc@J[Ly@JaAFgARwA?]De@DaA?_@Dm@BmBAgB@g@Dq@Jk@FkAXwB?SK]?KBiADa@Eu@FqCFeALcABu@H]V}B@e@Fu@@e@Es@Fs@@]Em@AgCDUHGf@SVQz@Kh@@\\Ap@JV?vAVP@JEJ]@[CqEBe@DUHEXEJBpAKN?h@P^C\\B`@CHWNeAC{A@y@"
+  "distance_m": 8427.6,
+  "moving_time_s": 2807,
+  "total_elevation_gain_m": 36.4,
+  "start_date": "2026-09-01T12:16:14Z",
+  "id": 19994316842,
+  "map_polyline": "yv{eGhwr`Pl@Ev@TVi@n@W?UJC\\HHG`@wAt@u@\\y@j@gALGtAmBb@u@|AeADUMe@DSd@]Ne@|@eAn@_@Zu@VQPa@pAiB?Ip@_ALGLYH?LYAYe@oA}@sASe@_@[[{@BIEa@QIJo@HYd@ON]l@k@?Sl@g@w@_AC]LSTXJCBg@aAoAKAy@q@mCcFe@mA}@oA}@kBeAwA]gBe@g@m@eAa@k@_@Yg@g@i@s@iA_AgBiCUMGSyAK]Wm@}@KEK[eBaBgAuAQc@kByBiAe@OwAIM]}BIAGWICKk@KKOe@a@c@iAeBYkDOw@?o@[gBCk@]}@Lq@OeABMMa@BOKw@BUOc@Ao@Oe@Ck@Y]Oc@SKIYOKCQ]_@Ka@u@sAYSKWs@u@WiAQO_@u@OMQg@_AuAUK_@eAuAeBAMUSk@iAaBeCKU?KSIAQSKEWGAUe@s@gA}@iAK_@a@g@E@OYAM]S_@q@WQCOM[a@_@Qe@]]EUQK]k@K_@e@k@M[uB{CcAqBKEk@q@gAoBKGGWWSSDs@`Aq@|AORUF?Ta@r@EXUNER[V]n@AVYf@In@KLD^r@rAn@jBj@|@f@nApAfBP`@b@d@Zb@Nd@JP^b@Ld@v@rATHHVd@l@Th@D?Vb@DRJDDPVVXf@@NHDH`@`AbATh@VX?Ll@r@`AhBXPJZx@jA@JLD~@bB\\v@j@n@NDh@t@\\v@XNNj@z@bAd@dA\\^bA|AALRNPj@NJLX`@b@zCzEd@fAPJVp@`@f@h@bAf@nAdArADPbAtAnAxBp@l@^f@h@V`@b@XCJVH`Bj@|@Pp@R\\L@PPHd@R?JV?XJBIV`AbAFj@\\TL@?NJFQR?JNNJl@JP@^GNBJKn@MTSFIJ?XPh@KPCx@@b@NJFf@KJPNDR?TKV@^ENLT?v@OLIx@_@|@u@jAMHWl@yBnCd@bA@Zd@b@Vv@RZLDTj@VnAXPb@r@P`@@RKL?DMFILVd@BHK`@H|@Cr@DF?p@MTJdAKj@Fl@FLGL@d@EBJd@@RI^Fh@@j@G@BXKv@?h@Fr@GXH`@CPH|@f@|@FTJDFh@\\HNVF@EX"
 }
