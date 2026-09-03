@@ -1,10 +1,10 @@
 {
-  "name": "Lunch Run",
+  "name": "Afternoon Run",
   "type": "Run",
-  "distance_m": 8427.6,
-  "moving_time_s": 2807,
-  "total_elevation_gain_m": 36.4,
-  "start_date": "2026-09-01T12:16:14Z",
-  "id": 19994316842,
-  "map_polyline": "yv{eGhwr`Pl@Ev@TVi@n@W?UJC\\HHG`@wAt@u@\\y@j@gALGtAmBb@u@|AeADUMe@DSd@]Ne@|@eAn@_@Zu@VQPa@pAiB?Ip@_ALGLYH?LYAYe@oA}@sASe@_@[[{@BIEa@QIJo@HYd@ON]l@k@?Sl@g@w@_AC]LSTXJCBg@aAoAKAy@q@mCcFe@mA}@oA}@kBeAwA]gBe@g@m@eAa@k@_@Yg@g@i@s@iA_AgBiCUMGSyAK]Wm@}@KEK[eBaBgAuAQc@kByBiAe@OwAIM]}BIAGWICKk@KKOe@a@c@iAeBYkDOw@?o@[gBCk@]}@Lq@OeABMMa@BOKw@BUOc@Ao@Oe@Ck@Y]Oc@SKIYOKCQ]_@Ka@u@sAYSKWs@u@WiAQO_@u@OMQg@_AuAUK_@eAuAeBAMUSk@iAaBeCKU?KSIAQSKEWGAUe@s@gA}@iAK_@a@g@E@OYAM]S_@q@WQCOM[a@_@Qe@]]EUQK]k@K_@e@k@M[uB{CcAqBKEk@q@gAoBKGGWWSSDs@`Aq@|AORUF?Ta@r@EXUNER[V]n@AVYf@In@KLD^r@rAn@jBj@|@f@nApAfBP`@b@d@Zb@Nd@JP^b@Ld@v@rATHHVd@l@Th@D?Vb@DRJDDPVVXf@@NHDH`@`AbATh@VX?Ll@r@`AhBXPJZx@jA@JLD~@bB\\v@j@n@NDh@t@\\v@XNNj@z@bAd@dA\\^bA|AALRNPj@NJLX`@b@zCzEd@fAPJVp@`@f@h@bAf@nAdArADPbAtAnAxBp@l@^f@h@V`@b@XCJVH`Bj@|@Pp@R\\L@PPHd@R?JV?XJBIV`AbAFj@\\TL@?NJFQR?JNNJl@JP@^GNBJKn@MTSFIJ?XPh@KPCx@@b@NJFf@KJPNDR?TKV@^ENLT?v@OLIx@_@|@u@jAMHWl@yBnCd@bA@Zd@b@Vv@RZLDTj@VnAXPb@r@P`@@RKL?DMFILVd@BHK`@H|@Cr@DF?p@MTJdAKj@Fl@FLGL@d@EBJd@@RI^Fh@@j@G@BXKv@?h@Fr@GXH`@CPH|@f@|@FTJDFh@\\HNVF@EX"
+  "distance_m": 8059.3,
+  "moving_time_s": 2711,
+  "total_elevation_gain_m": 55.0,
+  "start_date": "2026-09-02T17:05:01Z",
+  "id": 20012571720,
+  "map_polyline": "av{eGzur`PZDLFJTJNDDJBNAVMZWDG?GGe@NIj@i@Rk@j@y@Jg@XUhBuCv@aAJUh@u@z@eAt@kATUNYTYl@cAPM|@_BZ]T_@X]DBLNVZHRPPx@bAf@|@t@hAJVT\\D@FGrAwBRA\\Lx@x@TP`@l@Vd@NNR^HANIb@_@^c@v@e@n@k@VQb@i@HGD?FF^`AHj@Dj@?T[xC@T`@l@f@`@Xd@\\^HR@^[rAQZc@hAY`A[~@S|@MnAMlB?pCJ`B@NFVZf@d@l@f@f@h@`@\\Pb@LDBDJBFBpACz@DbBFx@FXJLVLXZH@\\ARCZ@`BCh@@`@ClBBHCTBdBE\\BbAANE^Sj@e@p@a@zBaBhBgAf@_@l@o@j@{@Ra@Nk@Fc@?i@MuCKyA?]K}BDaARwABm@A[BaALwCE_EJiIA]H]DILMZS^Ex@?DCAe@@]Cq@FQLG\\M^Ep@@HBdBCdBBXIRAd@aEDcADG^EBKD_@H[Ba@Lw@VaCt@{Db@}CFKr@ID?HFPh@Vb@`@z@`BxCfAvBvBbETf@r@jA`AnB^h@Vl@b@r@FX`@nGJj@Rp@ZxC@pAP~ABZ?TMzD@f@g@zIErAE\\EfASlCKr@AfAKp@Cp@a@tDa@t@[|@W`@ENKN]t@YXOFS@IDy@BiAVSAUDaAFYDi@DSFc@Dc@Jy@HqAT{@Fi@ToAr@u@R[L_@X]\\c@X]\\e@ZiAbBq@v@m@h@U\\KTU\\k@j@]NUBe@C[@UCYDmGCYCa@BgBEcADu@Aw@BMCYISCe@@i@DYEYNi@AUBICWBWCw@Bg@Eg@Bc@CgCBgECq@DwDCi@@UB{ACo@D}@Ce@Bm@ImAHa@CUDoAESB[CUBa@AE@KIKWIGIAS?GASw@OsAAa@Ii@@eCLuAXkAJq@VcANu@FSNSHQXoAj@mB@KACm@OWFy@?]C"
 }
