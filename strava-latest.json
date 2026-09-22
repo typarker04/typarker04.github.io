@@ -1,10 +1,10 @@
 {
-  "name": "Night Run",
+  "name": "Morning Run",
   "type": "Run",
-  "distance_m": 462.9,
-  "moving_time_s": 126,
-  "total_elevation_gain_m": 10.0,
-  "start_date": "2026-09-18T00:39:37Z",
-  "id": 20229684156,
-  "map_polyline": "}f|eGhbs`P@KA@BCGa@JWLCh@?PCHBXCN?PFPEPM?a@E]Ae@@_AFkCFOF?JDXTV`@`@r@DDVF"
+  "distance_m": 10478.0,
+  "moving_time_s": 3305,
+  "total_elevation_gain_m": 98.0,
+  "start_date": "2026-09-22T07:10:03Z",
+  "id": 20281572440,
+  "map_polyline": "ii|eGl`t`Po@^q@LYs@QFORGPG`@Cp@ITU\\ENI`B?pAFXEv@?t@CNJ\\@VG\\_@~CA^GXGfBH~AAp@Gv@GlBE`@IvAKr@SpCUlAYvBSv@aAlCIb@KXCVLxA?VAzADp@C~@DtACh@@rA?LH^NpA?h@CdALn@DJD^EpBB^?f@QzAi@fCaBrFE`@An@FTT\\`Ar@h@h@p@`AZ|@PtA@j@HdABn@Ej@U|AKfAMf@Qb@{AbCiAfA[^i@d@o@v@uAvAEJ?\\]r@EDg@@IF{@fAE?GNWXYf@]x@i@jBIR}AzCo@r@a@PmATa@BUHeD^g@TuAXODKLOTIZEd@?j@NzCZjC]jAU`@KH]FcAZOJk@r@i@v@IXAnACv@GPKHKVODQA_ABo@Ca@BiAG_@B}AAq@CoADm@Cq@Du@AWEoAFe@PYRYZU^_@nAEb@Cl@Dv@Fd@h@hBj@xAb@~@NTvBvErBtDlAfBbAfA^n@N^^`BV|B?\\ZbCL`@LJPETATGHEv@{@hAcAVc@Pe@DuDAg@?{ASwBG_BF{DDiAA}@DmA?u@Bs@?gALm@Bi@My@F{BGo@@MBEBAr@@TGr@CJBr@CZIr@B^Ah@BJIPg@?[WgCIk@MiAm@iEQmBU}CE{@B_@DUPa@XSNGhAUp@W|@InAQd@Cv@Oh@G^Oj@a@TY`AeBp@_BZmATo@j@_Ap@aAh@m@LEVCNKLQLWBOAOBKdBgBfBsBfAcArAsBXq@Ni@L{ARoAFiAKwBSwAMi@]q@mAyAw@o@]c@Ia@Fo@Nu@pAyDh@gCLwAB{AF}AASWgBAY@kASiB?gAEWBgAGqE@aAEa@My@?_@Lk@Z{@v@iBH]PkAb@{BN_ANmBDaAF]NqEFy@CaC@aAd@qEN_AA_@IQAwABi@G[JcETeCZkCDy@LkAEmAJeBGgAB_BDUHQTCf@Sf@Id@CZBf@EX@v@ET@j@LJCHQ@QKqD@UAYF_@FMVEp@Ot@GR@l@LTC\\D\\CL@"
 }
