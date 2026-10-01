@@ -1,10 +1,10 @@
 {
   "name": "Morning Run",
   "type": "Run",
-  "distance_m": 13252.8,
-  "moving_time_s": 4268,
-  "total_elevation_gain_m": 74.0,
-  "start_date": "2026-09-30T09:32:06Z",
-  "id": 20394615484,
-  "map_polyline": "_q{eGvtr`PABHCCz@GRq@fAENKHa@pBGDI`@EJa@rACR@HBHF@@DGBADC^In@ATO`AD\\A^FTAr@BPKdA{@rAQd@If@L^LFpFJTEd@\\`ACn@GHBZAj@GLDx@?v@GbAFVLh@FfAGh@HHHBDCLUp@g@rBK^SXg@rBKt@W~@Kl@IdAC~BVtCHh@NZTBpAAfBB`BEhBDLEVBrCCjDB|BKXFbACvCAx@FfAGpF?f@C~@FfDEhBDxAEh@F~AC|A?d@InDJzACTTXJd@a@J?^ZfApAZx@DXBp@MbFEfGCz@@d@RfA^j@nAr@~AhAZN`@Hr@Dj@C`COf@IpBK^Bp@NbAh@pF|DhAd@v@T|@f@f@h@LXHp@B~AIxGCj@BzBKrDBrA^hBVpBhA~Fd@jDBtAIvBBb@\\tB^nAT`@`@d@d@Pr@ApBe@`Bi@bASn@C\\F^Ph@d@LVJd@BdAIzC@bBE~A?xDOxCE^I~AH~BL~@Pl@lBlE^hAtAnFr@nBjBpDnAhB`AjAVTfAl@x@T~@HxBKp@BvBYdAWPA|AJ^JZL~@z@h@~@h@pBNz@J~@PnD?lCI~Bg@rD_@hAoDpM@hBFv@@tAB^GnCG\\InA?p@Bl@AFKFg@AUHu@FIEYo@w@sAWaAQ_@_A{@US[k@e@m@w@q@mBoAeBm@m@Mw@EsBYeAc@_AWaDsA{CcBgFeB_@Io@E[A{@HQOSCgCuC{@iAcAo@_AUm@EMGMMa@k@{@i@_@OqAWY?i@Jm@CKEQSqAqBYk@MKo@ZiEjGEV[h@YPUDuDpBSQi@qAYg@k@qAk@cAsAuCWo@aAoB_@k@uF{L}A_Dm@gAg@sAuAqC_AoAaAaBwAmBe@w@}@}@i@q@wFcIe@k@WS[}@kBoBoB{CeAmB_AgCMWk@gBe@eBm@oC{@eGQk@MkAUoAQgB]aB[_C_@oBg@}D}@kFUiBEWUk@Ag@Gg@i@iBA}@CUi@_DI{@[oBi@uC_@aCIk@C{@SeAUuBQ_AC]Wu@g@aEMi@Wq@CSCu@WkBUkAIgA]yCImAAeABk@NwAl@{CFc@T_AFSHIFKdAoDDSCQII[KODe@Dy@?q@]Gc@?]AM?aCBk@Cq@WCg@Be@Ac@[CMCa@AcCB_AESaAIm@BiAA"
+  "distance_m": 4859.3,
+  "moving_time_s": 1654,
+  "total_elevation_gain_m": 28.0,
+  "start_date": "2026-10-01T08:45:23Z",
+  "id": 20407356880,
+  "map_polyline": "sv{eGdur`PHCPHDFGJZAj@BJCLIFAt@w@CABCh@]@EJKL_@d@q@N_@d@k@b@]hAsBx@gAd@g@JSPQBKDAH@T\\d@v@NZVZ`@v@d@j@LXb@n@b@d@j@dAX`@d@~@^l@\\\\^r@^f@?JCVe@lBOhA]dBE\\K\\OxAITOl@Eh@c@`BCFST[dA{@jEs@hDY`AOz@_@xAIn@YfAO~AE`ABfAL~ANz@Nn@HpAj@~C@xAL`@LVb@zBLdALj@XpBt@`FHxAHd@J`@r@tEFZPxAVtATlBNl@C\\ELOFER@b@^zBERKNMD}@DwAASDO?ICi@AcA?a@Ce@By@ESBk@GIBc@Ce@BGAm@@gABq@Es@Bs@CI@c@Ae@BYAKBQ?GCSBICAE@}EDmA?[CQLgA?cBDkACUBm@dAuE\\gBL{@~@eDLgAPs@B[AmDDk@?mADk@A_@BMCyB@eAToCAeCIqADiAHw@AeBES?MDoACaABg@Am@@sBAESSYg@A_@?eDJ}BDgCEoCAGIKOEK@eAE]@GDK@I?IECUJuD?{@Ei@BKUcA"
 }
