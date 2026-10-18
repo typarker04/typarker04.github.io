@@ -1,10 +1,10 @@
 {
-  "name": "Evening Run",
+  "name": "Morning Run",
   "type": "Run",
-  "distance_m": 7273.9,
-  "moving_time_s": 2079,
-  "total_elevation_gain_m": 0,
-  "start_date": "2026-10-15T18:08:07Z",
-  "id": 20602449871,
-  "map_polyline": ""
+  "distance_m": 15220.8,
+  "moving_time_s": 4797,
+  "total_elevation_gain_m": 230.0,
+  "start_date": "2026-10-17T10:34:21Z",
+  "id": 20624703304,
+  "map_polyline": "eu{eGpzr`PKuAG~ANBILCPCBEE@FSlDCLIHa@Ng@D_AC{@Uu@Fa@IIHShBHhBKt@Bd@IFiADa@JaDEe@Iu@NUTIVGdA?|@Fr@KlAD`Bm@nGY`EChBDv@KdBPp@@TWrA[rCGpBBhCYpGMp@EjAKd@c@vCShBYnA]n@s@rBGb@NrBDxLV`BBd@G~@ZtBGlBDf@AVCj@]vBe@hBwAfEGj@Br@FP`CzBp@`ARh@TvANpBApBYlAO`B[x@a@t@iA`BoDvDqAjAELA^]x@y@PyAdBu@vAwA`EmAzBi@b@_AXcFj@kBl@OCGSE??Kc@eACWWuDG[?aAKi@c@{@mA{Cm@kCCeCDsAIiAI{BIs@_@qA]oBo@cCaA}As@sBu@iAKBCHDd@?c@D[m@oBW_B[y@_BsB_ByCcAg@_AwAkAoAKYFODA\\NHd@FNd@h@t@lAVR`@JTTp@jAl@rAxAtBX|@TrAj@jBp@hAt@pBfAtBdAvCb@~BGl@DlBKvAGhA_@|@w@t@MVGTLXc@Su@Ps@r@c@`AQv@GlAOrAgAjCCfADnCDFL@pAORQv@eAXCv@BhA^R`@RjA`@z@f@b@f@@~B[XTAZUn@Ef@PlE~B`TXfA`AfCdA|Cx@jCb@|@ZXRr@\\VxDNrECr@GdAUz@Uj@[`@EjEqBtBgA|AcAjDsDz@s@~@i@~A_@`Ac@h@CDc@LMhAMb@BFSZ{B\\eDXsBLgE@_DFu@?wAOmFYoIMcCEgDQuCCaBQuA]gAU{BKsDa@mDGqCIOWKGg@MMc@E{BBEMDaIDu@Ao@MuA?}Av@IfABpAPo@LOEBQpEF\\a@DQ@gDEoBFk@EIbCFbDEfFHdBEn@a@pAAlAWrALlEGCm@o@oDDMF?TXDuAkAoGWaCy@gEMeB}@uFRKhBExBBXErB?`@Q@MIQGwADcHEgFFMXOlABBEKsGBQLOl@KhDBjDSx@Fn@C`@F|B?Ko@AoEQuA`@KT?HK@GM[Di@Au@Pa@DWQc@Ge@G}AAyDOUk@Sw@g@mByBI]MyBCq@DiBXiDfAgEz@{BP_AC]IQ{@gAc@Y_@k@@o@RoA@sAI_AW}@KQSBmBlByBnB}AfAkAlAETFd@gBhC}@tBiAtDa@?S[a@GUOyCyE_BuCWWg@{@yAsByBbDgBvBaBlCSVq@n@"
 }
