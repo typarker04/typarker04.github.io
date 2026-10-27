@@ -1,10 +1,10 @@
 {
-  "name": "Morning Run",
-  "type": "Run",
-  "distance_m": 28986.9,
-  "moving_time_s": 9027,
-  "total_elevation_gain_m": 166.0,
-  "start_date": "2026-10-25T07:35:46Z",
-  "id": 20727861150,
-  "map_polyline": "gv{eGxwr`P@l@]bB^zCBpAi@~CBnD[tDPlBf@`Ap@^fAMp@_Af@O~@FdHS~AR|BBDJ}@tD}@fCu@rDSbBAnBTvCh@|Db@`CBlAf@hBdCfPMPmCFs@ZbEwA_BaL}@yDQuBkAwHQsC?eAp@_FjEkSvAuEj@gDdANRS`@wBc@kEtBaHlAaCbAwAB{@HQtK}JN@Xt@TnACzAQ`C~BrCNt@_@`BmAxCs@zCUpDJjFNd@z@lA|CtBJzGNz@`Ap@zQEdLaIpAkB`@yBg@yK`@kEJcGJgOHk@LMpBKJYLm^X{Hf@o@zFuER{@tAuAEq@m@sA][e@b@EU|CeEpG{FjBk@dB\\tAUhEgBrGcEtCmCjCcFr@q@`AoC`BqBj@uApC_FhBiElAqJPcDMkADSfC{D^gAp@k@`@s@dTu`@~AoGl@wCtAoNTwDhJQjDo@lEyAn@@|@\\lCpBf@QVqAMgGJoDhAqExDaIo@k@oBaDWwACmDYmBZjB@lDXvAn@t@bApBl@d@d@_ApByGp@{Fd@kBv@_BjDZfCIrA[jDA^sC~AkC|CkJ^uDDcB@kJGcAW_@qCc@m@a@kA_B[uBa@u@oJgLcHeHmJmIoK}KwCeF_AmFImFTcFn@qEj@wBl]{v@`C{CdByDlG_L^kA\\uBiB~F{ErIyAfDiCjDy]xw@_@pA_ApGIfKlAnGrAhCtBtCjGhG|AjBnOrNdMlNl@`Aj@pCtAfBj@ZvBX\\XLbABjHOhE]bDeBvE[|AcElIaC?mAZkBHaE[g@n@eAhDi@hFcC|HoEdJkAzEMpCNdHYlAc@LkCsBmBa@uAXcCbA}Cj@oIDc@LSvDeAdL]zBiBxGSpAySh`@s@lAg@\\e@hAsBbDOn@@rAWlEeA`IaExIsBtDkAlAqAnDs@n@yBfEiDbDmI`FeEvAy@@}@[mBl@gGnFoDvELN`@c@h@b@h@|ACf@gA`Aa@r@oD~CkB|BGZCpHO`B@hEMz@HtDKhC?`IUNaBC]d@MhRKzE[xD`@zGB`CY`BkAhB}FnEqClBk@RsQHeAs@SkAGmGKSi@KaAs@sA}AYg@SwB?oDZ{CzCeKIg@q@eAsAsAZoEMcAg@wAg@XcKtJDb@wAtBy@bBwBzGu@nDcAhFChC_@nAeAxBi@nEq@Za@QoACu@a@CaHiBEa@c@IaGyKMGi@iBoCoCuDiAsB@_@`AqA"
+  "name": "Evening Swim",
+  "type": "Swim",
+  "distance_m": 1828.8,
+  "moving_time_s": 2048,
+  "total_elevation_gain_m": 0,
+  "start_date": "2026-10-26T18:23:14Z",
+  "id": 20744823485,
+  "map_polyline": ""
 }
