@@ -1,10 +1,10 @@
 {
-  "name": "Morning Run",
+  "name": "Afternoon Run",
   "type": "Run",
-  "distance_m": 13688.0,
-  "moving_time_s": 4259,
-  "total_elevation_gain_m": 139.0,
-  "start_date": "2026-10-28T10:42:48Z",
-  "id": 20772465292,
-  "map_polyline": "mt{eG~yr`P@BGGCFQ?ENAh@@XEFEh@BpAAl@Bj@NN|AOp@@XFFL?^Zb@Hb@Bd@GrAFv@FPZFfAEr@@HDFL@rAFt@IxAB^f@TdBBpARnAAd@GTJ?Lk@pBKn@Sp@UXS`A[`Ae@jCOpA?fABdATdCV`AzADLErBD|AC~AD`BI|C@j@EdAFXEVBlHItHBtBEzBDdHCjABlAEj@Lx@EtAAdABjAEbA@`@ONUJAn@~@t@p@Z`@Vl@Hf@BXIfDKrKFbAH\\HVRZ`Ap@h@TjAx@b@Pr@LxBItEa@h@Bt@Rv@^hClBf@VpA~@|Al@bAd@`@V\\^Rv@Bn@?vCKxHAvGFv@x@hFlA`HPxA@d@AhE^jC`@lAZh@\\X^NfA?~DoAzAWd@Bh@Pb@ZVd@Nl@Bt@ElFGrCCbF[vFH~ALz@Rt@hCpG`B~FfAtC`BvCt@fArAxAtAz@vA^f@@pAIh@IV@RHx@UtAKh@O|AFbAXl@ZRR`@r@P`@Vt@TbAPxAV`FAxBGzAEn@o@~D[pAg@nAyAzBUn@EZIdCFfEHfCGdBO`ACfCCHIDe@Ak@JW@SE[w@_@q@]cA_@m@eD{Do@e@[]s@c@c@OcBq@qC[eD{@sD}As@c@eAg@oFuBeASm@?yAEUOOA}@{@{BsC]]e@WoAa@q@GOM_@i@kB_AeAUU?s@R[C[OwAsBiAoBOm@o@s@sAaCMkAOe@]a@Yi@u@w@EO[{COc@Ig@KYC{@SgAwDqGa@iAKg@Qk@y@_Bk@w@ZiAd@_@LQHYOl@WPMROl@QBk@q@]k@e@gASq@SU]OaDj@k@@{@oAsA}BBMBCd@KhAOxDU_GTw@JKCOO{AeCyCsFy@ZmA|AQ?SMk@u@a@cAuAsBqBoDI@}@fAkB`C}@tAOCY[oAsBsCgF_@y@M?KEQ}@i@mDWqAOoAWkAa@sCQy@YaBIy@Q}@_@yCGk@s@kEc@yBEe@Ss@E{@gAqHq@eDMmAW{AEIc@ZWn@]`@Kf@Bd@CPA[CMcAmBGs@_@yAs@qAD]Tg@@Y@gOCYFeDm@qF]_BUuB@cCHeA|@qE\\yAZi@dAwDEWe@Y]PmAHYM_@[EqAByAAsBCIGCy@BQEGGI[GeB?mB"
+  "distance_m": 6724.2,
+  "moving_time_s": 2065,
+  "total_elevation_gain_m": 76.0,
+  "start_date": "2026-10-29T17:41:08Z",
+  "id": 20784977142,
+  "map_polyline": "ex{eG~sr`PCIFKEEFCc@[E@IEA@W]KGMME@UIYYSk@w@oBKKQ?GEq@kAc@_@MYi@_AQ]}@mAYi@wAwBUc@Y]q@iAm@u@k@gA]e@MWEAGD[f@g@l@Wb@E?IEYm@w@eASc@a@e@i@_AUYEMcCoDq@uAKGCGJi@COs@kAUCQD]f@CBE@EKaA{E[{@Wg@Aa@GSiAgBIQE_@OKOEWW[a@Q[c@g@mAiB_@Sm@UOMo@o@Q]GU@_@FSRYAa@DUTUJCP?DC?EaA{AO[WYo@gA]e@GMW]Q_@[_@]q@k@{@O]iBiCGSgAeBYSUAYFUZEBKAs@[]Mu@OkA]IA_A]qAWg@OQEgAa@y@Qi@W_ASUKcB_@s@WsAuAyAoBUQq@y@s@s@k@u@WIo@k@QSw@kAkEcFK@g@Zm@PIFKPW|AUnBMl@`@sCH{@Jc@LYPI`@EP@LJ`A`An@h@Z\\JPx@lBTZLLNDzADNHj@j@fArAd@b@|@jA|@bAl@x@\\T|@Xt@Lj@Tz@PhA`@bCn@lAb@jAXh@PZD|CbAVA`@a@NGNCJ@ZNlAhBn@fAtApBhB`Dx@jAx@rA^b@R`@Z`@`@r@ALEBIAKDUVENCf@SZGV?VH^V^`@b@NJJDH@`Ah@LNl@dAZb@RPn@`ANLZJRp@rAzBDj@r@lB`AxEBDHCVa@LMJANDLJh@~@`BhG`@h@p@lAf@p@|AjCl@|@HH\\p@fA`Bf@|@`@f@p@pAh@n@rBpDbAxAdAdBTVrAbCxAjB\\z@f@h@PB"
 }
