@@ -1,10 +1,10 @@
 {
-  "name": "Morning Run",
+  "name": "Afternoon Run",
   "type": "Run",
-  "distance_m": 11351.3,
-  "moving_time_s": 3393,
-  "total_elevation_gain_m": 127.0,
-  "start_date": "2026-11-04T07:28:32Z",
-  "id": 20857423513,
-  "map_polyline": "yu{eGpyr`PPVBJAJIN?J@DCF@IAZ@A@BBVB@Fh@E~AIf@YpAEf@Rl@@~ABDLHbABjAJP?`@ITFXEr@D`BCPJB\\HZB`AGvA?fA@`@HRLFvBAh@LT@f@@lAGLF@DANYlAe@jBGRUXIXmAjFObC?hAFfAPvARx@BT@j@Fh@VdBNr@?bAJb@Td@ZtBVnAHx@NhAPv@\\bCNz@Dp@AHIDeB?U@UHY@SA[D@CFG^GvB?|@IHHr@tEd@`CDh@L|@H`@NlAX~ACh@@VDPb@fAFTBz@JX^tBH|@VjB\\vANpAb@`Cd@rDl@|CVjBDb@z@dFTbBVnADb@l@xCz@tCbAzBd@|@Pf@|@|A`CfDZZ\\TJPTp@^`@|@lAnA|At@fArBnC`A|AdApAfAdBj@v@hAnBZ^j@hAh@fAVr@`ApBT\\v@zAPb@NVXp@xAxCbCpF~@bBhAfCp@pARf@Zh@pAvCHBJCb@g@^Wt@W|@QXMLMFMLm@Dk@Ty@NYJIr@{@nAeATYy@`Aq@j@}@fAO\\GZGf@Mx@MTa@V{@X_@Fw@`@kA`AeBhBa@RWHw@BwAC_@BcAMuALeBEs@Di@GcAFqCIeCAQGSQ[a@c@{@SSa@k@mBcDqAcBCM[\\CAoA_BMWq@{@cA}AoC{DuD_Gs@}@{@wAoAiBq@iAs@aAUa@u@cAa@q@aAuAe@w@]_@DiFRLb@?`BGrCD\\CzBBbAC`@D|A?TE|@AbDD^Cv@?PBJFL?xB?l@D~@Ed@JNHv@v@F@@EEIo@k@uAaBs@_AS_@u@{@c@o@Ua@q@}@cAgAOm@IQcAeA_@g@MK{BaD]u@Ya@So@Ug@e@oAq@yBy@oDKw@g@iC[aCI_@McAS_AKcAY}AWqBm@wCKaAy@_FWuBI[_@iCSu@GeAq@_C?cAOiAWaBEe@UiA{@qF_@iBGwAYuAQyA]}Be@cCUqBQq@OYGg@?i@E_@]iBMeACq@SeAS_BCeCBiAHw@lA{FHUT]He@Nm@Pe@Je@Tg@@So@FEE[@oAGo@]CECi@GiCDqB]GcADKASWG]GoA@qC?GCCOAgBD}BGk@Ga@Ds@GSB[IY?IGCKCa@BqBEiA@q@Hy@"
+  "distance_m": 10068.4,
+  "moving_time_s": 3152,
+  "total_elevation_gain_m": 94.0,
+  "start_date": "2026-11-07T13:28:27Z",
+  "id": 20902788283,
+  "map_polyline": "_w{eGvur`PHID?^JDJRLXHz@JNEVa@Cw@r@YDELe@CODS`@eAh@]R[j@e@V_@Vo@j@{@NYZa@P]p@_ANMN]d@o@rAeB`@o@\\c@`@s@j@q@r@kATWVa@L[D[Qe@]i@CM?e@c@g@oAkBOc@Aa@BWl@y@d@u@LKt@{@JC~@n@fBfAX`@HT@h@PlAB`@C^?Tn@vCTl@b@n@j@j@^p@^Xp@^t@n@b@RbAp@f@Tj@b@LIVWJALP\\bAHl@?l@Cv@UbB?LTb@TVHBNJP\\b@d@JPHTBXe@|Am@|Ac@tAO^YvAWzCC`A@lAJfB?\\DPXd@lAtAdAv@j@LJPB\\?nDDjAHn@JN`@VPRTDh@EbAAj@@JCvB@hAAZ@rAETBvABd@StGyEz@c@bAy@X[n@iAT{@Fm@Cm@OwDSgCAm@FaAVaC@eCLqD?yAAOAeADsBA_AB{@?sA@WHQVOn@GTBh@@BICeCBUB_BCkADUDeBCoABgAA}@D_@AyAB}@Cu@?oA@o@B_@CcABe@C]@WEc@?WH[HKDSNMb@UbB{A\\k@r@m@b@e@`@]Ra@hAcAHDFJL`CXnBRl@^h@Nb@R^p@z@n@tAd@jBj@~@j@lA`A`Br@|Ar@nArAhCb@z@|@xAN^|@zAN^n@lADVFjAX~CBj@^|AHz@Lx@B`@At@@XNx@F`AMrDEfDOtAM`CClA[|EOzAAx@UbCEj@Mz@I|@GR]v@Sn@QP@DKVU^[p@SRODuANmAT]?gAHmAPs@FcBXmAJ[Ha@@_ChAq@TmAv@oAjA]RcAnAMVi@r@c@`@a@f@a@t@]b@MLa@HmBB]A{@F}@C]GsADc@CKE{CDiACKDe@B}CGm@DaACsA?OBa@CSB_CA_ABi@A}B@KCcBAu@BKBMCkBAMB[?WCIMOKi@Mu@DgBEuDLc@KYDc@BcA?e@Do@AU@GIOe@UuBOuBAy@@WN}Af@kCZkALm@PWHS\\_Bb@sA?MAGC?]_@UNMBgADOAYOOQEi@CcBF}BA]KGUC]B[EIMIuABmBIy@EKGEkAC}@Bi@A}@@MGMC[?MESSKIeACYCECIIS_@Ci@"
 }
