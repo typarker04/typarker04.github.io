@@ -1,10 +1,10 @@
 {
-  "name": "Afternoon Run",
-  "type": "Run",
-  "distance_m": 6889.6,
-  "moving_time_s": 2047,
+  "name": "Evening Swim",
+  "type": "Swim",
+  "distance_m": 1463.0,
+  "moving_time_s": 1639,
   "total_elevation_gain_m": 0,
-  "start_date": "2026-11-10T17:43:58Z",
-  "id": 20940581536,
+  "start_date": "2026-11-11T18:09:06Z",
+  "id": 20954371013,
   "map_polyline": ""
 }
