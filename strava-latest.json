@@ -1,10 +1,10 @@
 {
-  "name": "Evening Swim",
-  "type": "Swim",
-  "distance_m": 1463.0,
-  "moving_time_s": 1639,
-  "total_elevation_gain_m": 0,
-  "start_date": "2026-11-11T18:09:06Z",
-  "id": 20954371013,
-  "map_polyline": ""
+  "name": "Afternoon Run",
+  "type": "Run",
+  "distance_m": 6453.2,
+  "moving_time_s": 1960,
+  "total_elevation_gain_m": 76.0,
+  "start_date": "2026-11-13T14:42:28Z",
+  "id": 20976411621,
+  "map_polyline": "_w{eGt`s`PCd@CDOHmABc@TKBUCQFg@EWQOAMBKFIVGr@AlAGt@@z@I\\m@FeATK?a@Sq@McA?EBJBS?c@PQA]DGJK`@Cv@HdB?p@C^BpAKlACt@O`AG|@_@nCAtAGfB?\\BZGn@?b@NlAS|AKd@Y|B?nADtCQnBMbCAh@Ej@Kb@KbC_@lBUtBcBxEEPCV?XLvAAtABp@AX?jBDr@Av@XfD?h@Cr@Bj@Rz@@PCp@DrBCh@QtA[|AWdAiA`DKd@In@Dd@HRTRl@`@p@r@h@n@Xd@Rp@P`ANlBFrAStASxBEVITa@t@u@dAg@v@_@b@iAbAuCbDCJAZQb@MPKF_@@OHa@d@AD@JXg@r@i@f@cAv@gApBqBVYh@g@fBkBd@s@Zu@Ny@NeC@cBGiASyB_@gA[k@mAsAk@a@[_@KUE[?YJo@d@sANk@Xu@fAsEBW@uAEe@Ao@@w@W{AHqAAOKeAOy@EsABeECyA?{@Cq@Gi@Aa@DUx@{BDOZu@Lm@Z{B\\uBLcBT_CF}BJu@Dq@?_AEe@@cBTgC^}C?OMc@Ee@?WHaACa@BuBLmBJs@RmBPiALmC?sAD}@EqA@u@Cc@Bm@PU\\SPEdAGv@BbALZCl@BLDt@HFWBWAiAH_BBMAy@FUb@SjB?ZBJAPI~@FJCViBDmADWAq@D[?YGYGG"
 }
